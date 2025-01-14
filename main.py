@@ -12,9 +12,9 @@ from MonthRec import MonthRec
 if __name__ == '__main__':
 
 
-    receipt_folder = r'F:\Dropbox\Beat Ninja\Business\Accounting\MockTry\ReceiptFolder'
-    new_receipt_dir = r'F:\Dropbox\Beat Ninja\Business\Accounting\MockTry\ReceiptsProcessed'
-    excel_file_path = r'F:\Dropbox\Beat Ninja\Business\Accounting\MockTry\Accounting2024.xlsx'
+    receipt_folder = r''
+    new_receipt_dir = r''
+    excel_file_path = r''
 
 
     print("reading receipts\n")

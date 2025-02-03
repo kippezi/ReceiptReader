@@ -1,5 +1,5 @@
-import GetDate
-import GetCurrencyAndAmount
+import get_date
+import get_currency_and_amount
 
 # look through the receipt to find whether it is an income or expense and the tax_cat and explanation
 

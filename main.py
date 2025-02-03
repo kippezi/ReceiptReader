@@ -1,12 +1,12 @@
 
-import ReceiptReader
-import ReceiptHandler
-import FileHandler
-import ExcelHandler
+import receipt_reader
+import receipt_handler
+import file_handler
+import excel_handler
 
 
-from Receipt import Receipt
-from MonthRec import MonthRec
+from receipt import Receipt
+from month_rec import MonthRec
 
 
 if __name__ == '__main__':

@@ -1,4 +1,4 @@
-import Receipt
+import receipt
 
 class MonthRec:
 

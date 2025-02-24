@@ -20,10 +20,10 @@ Receipt Reader is a specialized program developed for personal use, uploaded to 
    Manages file operations, such as organizing processed receipts into directories with IDs matching those in the Excel file.  
 
 3. **`get_currency_and_amount`**  
-   Contains the `get_currency_and_amount` method, which is used by the `ReceiptHandler` to extract currency and amount information from receipts.  
+   Contains the `get_currency_and_amount` method, which is used by the `receipt_handler` to extract currency and amount information from receipts.  
 
 4. **`get_date`**  
-   Includes the `get_date` method and its sub-methods, used by the `ReceiptHandler` to retrieve date information from receipts.  
+   Includes the `get_date` method and its sub-methods, used by the `receipt_handler` to retrieve date information from receipts.  
 
 5. **`month_rec`**  
    Includes A class that organizes receipts by month for insertion into the appropriate Excel sheet (MonthRec).  

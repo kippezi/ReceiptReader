@@ -13,28 +13,28 @@ Receipt Reader is a specialized program developed for personal use, uploaded to 
 
 ### Main Components
 
-1. **`ExcelHandler`**  
+1. **`excel_handler`**  
    Handles all data inputs to the Excel file.  
 
-2. **`FileHandler`**  
+2. **`file_handler`**  
    Manages file operations, such as organizing processed receipts into directories with IDs matching those in the Excel file.  
 
-3. **`GetCurrencyAndAmount`**  
+3. **`get_currency_and_amount`**  
    Contains the `get_currency_and_amount` method, which is used by the `ReceiptHandler` to extract currency and amount information from receipts.  
 
-4. **`GetDate`**  
+4. **`get_date`**  
    Includes the `get_date` method and its sub-methods, used by the `ReceiptHandler` to retrieve date information from receipts.  
 
-5. **`MonthRec`**  
-   A class that organizes receipts by month for insertion into the appropriate Excel sheet.  
+5. **`month_rec`**  
+   Includes A class that organizes receipts by month for insertion into the appropriate Excel sheet (MonthRec).  
 
-6. **`Receipt`**  
-   Represents individual receipt objects.  
+6. **`receipt`**  
+   Included a class that represents individual receipt objects (Receipt).  
 
-7. **`ReceiptHandler`**  
+7. **`receipt_handler`**  
    A module that handles receipt processing, including identifying receipt categories, amounts, and currencies.  
 
-8. **`ReceiptReader`**  
+8. **`receipt_reader`**  
    Reads receipt data from image files using machine vision or directly from PDFs.  
 
 9. **`main`**  
